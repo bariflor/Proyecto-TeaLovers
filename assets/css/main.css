@@ -1,5 +1,9 @@
-* {
-  outline: 1px solid red; }
+body {
+  margin: 0;
+  padding: 0; }
+
+header {
+  z-index: 1; }
 
 .col {
   width: 80%; }
@@ -14,5 +18,117 @@
   left: 200px;
   top: 200px;
   left: 400px; }
+
+.about {
+  background-image: url("../img/fondo-about.jpg");
+  height: 700px; }
+
+#nuestra-pasion {
+  height: 300px;
+  width: 500px;
+  position: relative;
+  left: 350px;
+  margin-right: -15px;
+  top: 200px;
+  margin-left: -15px;
+  color: white; }
+
+#nuestra-h1 {
+  font-size: 80px; }
+
+.colore-h1, .colore-p {
+  text-align: center; }
+
+.foto-1 {
+  background-image: url("../img/min-video-1-2.jpg");
+  height: 600px;
+  color: white; }
+
+.foto-2 {
+  background-image: url("../img/min-video-3.jpg");
+  height: 300px;
+  color: white; }
+
+.foto-3 {
+  background-image: url("../img/min-video-5.jpg");
+  height: 300px;
+  color: white; }
+
+.foto-4 {
+  background-image: url("../img/min-video-6.jpg");
+  height: 300px;
+  color: white; }
+
+.texto1 {
+  width: 300px;
+  position: relative;
+  top: 250px;
+  left: 145px; }
+
+.texto2 {
+  position: relative;
+  top: 150px; }
+
+.texto3 {
+  width: 200px;
+  position: relative;
+  top: 120px;
+  left: 65px; }
+
+.texto4 {
+  width: 200px;
+  position: relative;
+  top: 100px;
+  left: 160px; }
+
+.preguntas {
+  background-image: url("../img/parallax-2.jpg");
+  height: 700px; }
+
+#preguntas-te {
+  height: 300px;
+  width: 500px;
+  position: relative;
+  left: 350px;
+  margin-right: -15px;
+  top: 200px;
+  margin-left: -15px;
+  color: white; }
+
+#preguntas-h1 {
+  font-size: 80px; }
+
+.campos {
+  background-image: url("../img/parallax-4.jpg");
+  height: 700px; }
+
+#campos-te {
+  height: 300px;
+  width: 500px;
+  position: relative;
+  left: 350px;
+  margin-right: -15px;
+  top: 200px;
+  margin-left: -15px;
+  color: white; }
+
+#campos-h1 {
+  font-size: 80px; }
+
+footer {
+  background: #374C4F !important;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  padding: 10px; }
+
+#logo-footer {
+  position: relative;
+  left: 50px; }
+
+#texto-footer {
+  position: relative;
+  left: 150px;
+  color: #D9CCCC; }
 
 /*# sourceMappingURL=main.css.map */

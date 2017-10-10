@@ -1,5 +1,13 @@
 *{
-	outline: 1px solid red;
+	// outline: 1px solid red;
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+header {
+	// position: fixed;
+	z-index: 1;
 }
 .col {
 	width: 80%;
@@ -15,3 +23,9 @@
 	top: 200px;
 	left: 400px;
 }
+
+@import "parciales/vision.scss";
+@import "parciales/preguntas.scss";
+@import "parciales/campos.scss";
+@import "parciales/header.scss";
+@import "parciales/footer.scss";
