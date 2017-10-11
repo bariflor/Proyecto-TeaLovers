@@ -19,25 +19,36 @@
 .colore-h1, .colore-p {
     text-align: center;
 }
+#fotos-4 {
+    margin-left: -15px;
+    width: 100%;
+}
 .foto-1 {
     background-image: url("../img/min-video-1-2.jpg");       
     height: 600px;
     color: white;
+    background-size: cover;
 }
 .foto-2 {
     background-image: url("../img/min-video-3.jpg");       
     height: 300px;
     color: white;
+     background-size: cover;
+     width: 100px;
 }
 .foto-3 {
     background-image: url("../img/min-video-5.jpg");       
     height: 300px;
     color: white;
+     background-size: cover;
+     width: 100px;
 }
 .foto-4 {
     background-image: url("../img/min-video-6.jpg");       
     height: 300px;
     color: white;
+     background-size: cover;
+     width: 100px;
 }
 .texto1 {
     width: 300px;
