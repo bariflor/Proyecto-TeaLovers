@@ -2,6 +2,8 @@
 .about {
 	background-image: url("../img/fondo-about.jpg");		
 	height: 700px;
+    background-size: cover;
+    line-height: 1.5 !important;
 }
 #nuestra-pasion {
     height: 300px;
@@ -16,8 +18,19 @@
 #nuestra-h1 {
 	font-size: 80px;	
 }
+.colore-h1 {
+    color: pink;
+    padding-top: 50px;
+}
 .colore-h1, .colore-p {
     text-align: center;
+    line-height: 1.5 !important;
+}
+#mosaico {
+    line-height: 1.5 !important;
+}
+.colore-p{
+    padding-bottom: 40px;
 }
 #fotos-4 {
     margin-left: -15px;

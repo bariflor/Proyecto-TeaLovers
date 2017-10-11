@@ -16,7 +16,7 @@
     	 <header>    		
 			<nav class="navbar navbar-light" style="background-color: transparent;">
 			  <a id="logo" class="navbar-brand" href="#">
-			  	<img src="assets/img/logo.png" width="80">
+			  	<img src="assets/img/logo.png" width="90">
 			  </a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
@@ -44,15 +44,16 @@
       	<div class="row">
        		<div class="col">       			
        		   <img id="bienvenida" src="assets/img/bienvenida.png">
+             <img id="scroll" src="assets/img/scroll.png">             
        		</div>
        	</div>
       </div>       
        </section>
  <!--  SECTION #2 -->
-       <section>      
-       		<iframe src="https://player.vimeo.com/video/148993635" width="100%" height="560" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+       <!-- <section> -->      
+       		<iframe src="https://player.vimeo.com/video/148993635" width="100%" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
        	
-       </section>
+       <!-- </section> -->
       <!--  SECTION #3 -->
 
        <section class="about">
@@ -69,7 +70,7 @@
       <!--  colores -->
        <section>
        	<div class="container">
-          <div class="row">
+          <div class="row" id="colores">
        		<div class="col">
        			<h1 class="colore-h1">Negro</h1>
        			<p class="colore-p">Lorem ipsum dolor<br>
@@ -115,8 +116,7 @@
        	
        </section>
       <!-- fotos-4-mosaico -->
-      <section>
-      	<div class="">
+      <section id="mosaico">      	
       	  <div class="row" id="fotos-4">
        		<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6 foto-1">
        			<p class="texto1">¿Todas las infusiones son té?</p>
@@ -137,43 +137,44 @@
        			</div>
        		</div>
        	  </div>
-      	</div>
+      	
       </section>
 <!--       preguntas sobre el té -->
       <section class="preguntas">
        	<div class="container">
        		<div class="row" id="preguntas-te">  
+              <img id="logo-preguntas" src="assets/img/logo.png" width="90">
        	      <h1 id="preguntas-h1">PREGUNTAS<br>SOBRE EL TÉ</h1>    		
        	    </div>       	           	
-       </section>
-       <section>
+      </section>
+      <section>
        	<div class="container-fluid">      		
-	       	<div class="row">
-	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+	       	<div class="row" id="tres-preguntas">
+	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6" id="uno-preguntas">
 	       	    		<h3>¿Cuánto té debo echar para<br> una taza?</h3>
 	       	    		<p>
 	       	    			Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit. Assumenda voluptatibus voluptas quaerat minus<br> rerum quo eveniet ducimus cupiditate molestias<br> officiis omnis illo quis qui, placeat ullam ipsam<br> pariatur maiores!<br>
 	       	    			Lorem ipsum dolor sit amet, consectetur adipisicing<br>elit. Assumenda voluptatibus voluptas quaerat minus<br> rerum quo eveniet ducimus cupiditate molestias<br> officiis omnis illo quis qui, placeat ullam ipsam<br> pariatur maiores!<br>
 	       	    		</p>
 	       	    	</div>
-	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6" style="background: #f0e7ae">
 	       	    		<img src="assets/img/icon-1.png">
 	       	    	</div>
-	       	    </div>
-	       	    <div class="row">
-	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+	       	 </div>
+	       	 <div class="row">
+	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6" style="background: #8ec641">
 	       	    		<img src="assets/img/icon-2.png">
 	       	    	</div>
-	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6" id="dos-preguntas">
 	       	    		<h3>¿Debo hervir el agua para<br> hacer té?</h3>
 	       	    		<p>
 	       	    			Lorem ipsum dolor sit amet, consectetur adipisicing<br> elit. Assumenda voluptatibus voluptas quaerat minus<br> rerum quo eveniet ducimus cupiditate molestias<br> officiis omnis illo quis qui, placeat ullam ipsam<br> pariatur maiores!<br>
 	       	    			Lorem ipsum dolor sit amet, consectetur adipisicing<br>elit. Assumenda voluptatibus voluptas quaerat minus<br> rerum quo eveniet ducimus cupiditate molestias<br> officiis omnis illo quis qui, placeat ullam ipsam<br> pariatur maiores!<br>
 	       	    		</p>
 	       	    	</div>
-	       	    </div>
-	       	    <div class="row">
-	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+	       	 </div>
+	       	 <div class="row">
+	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6" id="tres-preguntas">
 	       	    		<h3>¿Cuántos tés e infusiones<br> son recomendables al día?</h3>
 	       	    		<p>
 	       	    			Lorem ipsum dolor sit, consectetur adipisicing<br> elit. Assumenda  voluptas quaerat minus<br> 
@@ -182,13 +183,12 @@
 	       	    			elit. Assumenda voluptatibus  quaerat minus<br> 
 	       	    		</p>
 	       	    	</div>
-	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+	       	    	<div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6" style="background: #ed9a9d">
 	       	    		<img src="assets/img/icon-3.png">
 	       	    	</div>
-	       	    </div>
-	       	</div>
-	     </div>
-       </section>
+	       	 </div>
+	   </div>
+    </section>
       <!-- campos -->
        <section class="campos">
        	<div class="container">
@@ -228,7 +228,7 @@
        <section>
        	<div class="container">
        		<div class="row">
-	       	    <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6">
+	       	    <div class="col col-sm-6 col-md-6 col-lg-6 col-xl-6" id="cuatro-preguntas">
 	       	    	  <h3>AMAMOS EL TÉ</h3>
 	       	    	  <p>
 	       	    			Lorem ipsum dolor sit, consectetur adipisicing<br> elit. Assumenda  voluptas quaerat minus<br> 

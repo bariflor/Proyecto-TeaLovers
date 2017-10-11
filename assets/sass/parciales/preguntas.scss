@@ -1,6 +1,14 @@
+
+#logo-preguntas {
+   
+   position: relative; 
+   bottom: 180px;
+   right: 350px;
+}
 .preguntas {
 	background-image: url("../img/parallax-2.jpg");		
-	height: 700px;
+	height: 650px;
+    background-size: cover;
 }
 #preguntas-te {
     height: 300px;
@@ -14,4 +22,8 @@
 }
 #preguntas-h1 {
 	font-size: 80px;	
+}
+#uno-preguntas, #dos-preguntas, #tres-preguntas, #cuatro-preguntas{
+    line-height: 1.5 !important;
+    text-align: center;
 }

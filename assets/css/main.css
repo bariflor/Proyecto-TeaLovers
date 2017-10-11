@@ -2,28 +2,42 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  line-height: 0.5 !important; }
 
 header {
   z-index: 1; }
 
-.col {
-  width: 80%; }
+.navbar {
+  padding: 10px;
+  height: 150px; }
+
+#logo {
+  position: relative;
+  left: 90px; }
 
 .portada {
   background-image: url("../img/fondo-bienvenida.jpg");
-  height: 700px; }
+  height: 690px;
+  background-size: cover; }
 
 #bienvenida {
   width: 500px;
   position: relative;
-  left: 200px;
-  top: 200px;
-  left: 400px; }
+  left: 300px; }
+
+#scroll {
+  color: white;
+  width: 50px;
+  position: relative;
+  top: 250px;
+  left: 25px; }
 
 .about {
   background-image: url("../img/fondo-about.jpg");
-  height: 700px; }
+  height: 700px;
+  background-size: cover;
+  line-height: 1.5 !important; }
 
 #nuestra-pasion {
   height: 300px;
@@ -38,8 +52,19 @@ header {
 #nuestra-h1 {
   font-size: 80px; }
 
+.colore-h1 {
+  color: pink;
+  padding-top: 50px; }
+
 .colore-h1, .colore-p {
-  text-align: center; }
+  text-align: center;
+  line-height: 1.5 !important; }
+
+#mosaico {
+  line-height: 1.5 !important; }
+
+.colore-p {
+  padding-bottom: 40px; }
 
 #fotos-4 {
   margin-left: -15px;
@@ -94,9 +119,15 @@ header {
   top: 100px;
   left: 160px; }
 
+#logo-preguntas {
+  position: relative;
+  bottom: 180px;
+  right: 350px; }
+
 .preguntas {
   background-image: url("../img/parallax-2.jpg");
-  height: 700px; }
+  height: 650px;
+  background-size: cover; }
 
 #preguntas-te {
   height: 300px;
@@ -111,9 +142,14 @@ header {
 #preguntas-h1 {
   font-size: 80px; }
 
+#uno-preguntas, #dos-preguntas, #tres-preguntas, #cuatro-preguntas {
+  line-height: 1.5 !important;
+  text-align: center; }
+
 .campos {
   background-image: url("../img/parallax-4.jpg");
-  height: 700px; }
+  height: 700px;
+  background-size: cover; }
 
 #campos-te {
   height: 300px;

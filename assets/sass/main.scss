@@ -1,29 +1,44 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 *{
 }
+html {
+	// line-height: 0 !important;
+}
 body {
 	margin: 0;
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
+	line-height: 0.5 !important;
 }
 header {
 	z-index: 1;
 }
-.col {
-	width: 80%;
+.navbar {
+    padding: 10px;
+    height: 150px;
 }
+#logo {
+	position: relative;
+    left: 90px;
+}
+.navbar-toggler-icon{}
 .portada{
 		background-image: url("../img/fondo-bienvenida.jpg");		
-		height: 700px;
+		height: 690px;
+		background-size: cover;
 }
 #bienvenida {
 	width: 500px;    
 	position: relative;
-	left: 200px;
-	top: 200px;
-	left: 400px;
+	left: 300px;
 }
-
+#scroll{
+	color: white;
+	width: 50px;    
+	position: relative;
+	top: 250px;
+	left: 25px;
+}
 @import "parciales/vision.scss";
 @import "parciales/preguntas.scss";
 @import "parciales/campos.scss";
